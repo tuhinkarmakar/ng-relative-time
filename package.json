@@ -1,0 +1,79 @@
+{
+	"name"       : "@tuhinkarmakar/relative-time",
+	"description": "A relative time formatter for Angular.",
+	"version"    : "1.0.0",
+	"license"    : "MIT",
+
+	"keywords": ["angular", "time", "i18n", "formatter"],
+
+	"author": {
+		"name" : "Tuhin Karmakar",
+		"email": "tuhin@tuhinkarmakar.me",
+		"url"  : "https://tuhinkarmakar.me"
+	},
+
+	"repository": {
+		"type": "git",
+		"url" : "https://github.com/tuhinkarmakar/ng-relative-time.git"
+	},
+
+	"bugs": {
+		"url"  : "https://github.com/tuhinkarmakar/ng-relative-time/issues",
+		"email": "tuhin@tuhinkarmakar.me"
+	},
+
+	"scripts": {
+		"ng"   : "ng",
+		"start": "ng serve",
+		"build": "ng build",
+		"test" : "ng test",
+		"lint" : "ng lint",
+		"e2e"  : "ng e2e",
+
+		"docs:build": "./node_modules/.bin/compodoc -d docs --hideGenerator --theme=material -n \"ng-relative-time\" -p projects/relative-time/tsconfig.lib.json",
+		"docs:serve": "./node_modules/.bin/compodoc -d docs --hideGenerator --theme=material -s -w -o -n \"ng-relative-time\" -p projects/relative-time/tsconfig.lib.json --port 4210"
+	},
+
+	"dependencies": {
+		"@angular/animations"              : "~7.2.0",
+		"@angular/common"                  : "~7.2.0",
+		"@angular/compiler"                : "~7.2.0",
+		"@angular/core"                    : "~7.2.0",
+		"@angular/forms"                   : "~7.2.0",
+		"@angular/platform-browser"        : "~7.2.0",
+		"@angular/platform-browser-dynamic": "~7.2.0",
+		"@angular/router"                  : "~7.2.0",
+		"@compodoc/compodoc"               : "^1.1.9",
+		"core-js"                          : "^2.5.4",
+		"rxjs"                             : "~6.3.3",
+		"tslib"                            : "^1.9.0",
+		"zone.js"                          : "~0.8.26"
+	},
+
+	"devDependencies": {
+		"@angular-devkit/build-angular"   : "~0.13.0",
+		"@angular-devkit/build-ng-packagr": "~0.13.0",
+		"@angular/cli"                    : "~7.3.9",
+		"@angular/compiler-cli"           : "~7.2.0",
+		"@angular/language-service"       : "~7.2.0",
+		"@types/node"                     : "~8.9.4",
+		"@types/jasmine"                  : "~2.8.8",
+		"@types/jasminewd2"               : "~2.0.3",
+		"codelyzer"                       : "~4.5.0",
+		"jasmine-core"                    : "~2.99.1",
+		"jasmine-spec-reporter"           : "~4.2.1",
+		"karma"                           : "~4.0.0",
+		"karma-chrome-launcher"           : "~2.2.0",
+		"karma-coverage-istanbul-reporter": "~2.0.1",
+		"karma-jasmine"                   : "~1.1.2",
+		"karma-jasmine-html-reporter"     : "^0.2.2",
+		"ng-packagr"                      : "^4.2.0",
+		"protractor"                      : "~5.4.0",
+		"ts-node"                         : "~7.0.0",
+		"tsickle"                         : ">=0.34.0",
+		"tslib"                           : "^1.9.0",
+		"tslint"                          : "~5.11.0",
+		"typescript"                      : "~3.2.2",
+		"webpack-bundle-analyzer"         : "~3.1.0"
+	}
+}

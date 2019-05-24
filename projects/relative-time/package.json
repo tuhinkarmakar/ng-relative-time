@@ -1,0 +1,28 @@
+{
+	"name"       : "@tuhinkarmakar/relative-time",
+	"description": "A relative time formatter for Angular.",
+	"version"    : "1.0.0",
+	"license"    : "MIT",
+	"keywords"   : ["angular", "time", "i18n", "formatter"],
+
+	"author": {
+		"name" : "Tuhin Karmakar",
+		"email": "tuhin@tuhinkarmakar.me",
+		"url"  : "https://tuhinkarmakar.me"
+	},
+
+	"repository": {
+		"type": "git",
+		"url" : "https://github.com/tuhinkarmakar/ng-relative-time.git"
+	},
+
+	"bugs": {
+		"url"  : "https://github.com/tuhinkarmakar/ng-relative-time/issues",
+		"email": "tuhin@tuhinkarmakar.me"
+	},
+
+	"peerDependencies": {
+		"@angular/common": "^7.2.0",
+		"@angular/core"  : "^7.2.0"
+	}
+}
